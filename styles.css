@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, main {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#chat {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#message-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#message-input {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 15px;
+}
+/* Estilo para mensajes del bot */
+.message-bot {
+    background-color: #ffeb3b; /* Color amarillo para mensajes del bot */
+    color: #000; /* Color del texto */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Borde redondeado */
+}
+/* Estilo para mensajes del usuario */
+.message-user {
+    background-color: #ba68c8; /* Color morado */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilo para respuestas del bot */
+.message-bot-response {
+    background-color: #81c784; /* Color verde */
+    color: #000; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilo para nombre del bot */
+.message-bot {
+    color: #ffeb3b; /* Color amarillo */
+}
